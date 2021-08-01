@@ -1,0 +1,82 @@
+.seccionCita {
+    border-top: 1px solid rgba(219, 71, 170, 0.575);
+    border-bottom: 1px solid rgba(219, 71, 170, 0.575);
+    margin: 5%;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.cita {
+    justify-content: center;
+    margin: 5px auto;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    color: rgba(255, 255, 255, 0.959);
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+}
+.benito {
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 4px rgb(219, 71, 170);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    font-size: 35px;
+    font-weight: 400;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.capa_1{
+    display: block;
+    margin: auto;
+}
+/************* @media ***********/
+@media (max-width:320px){
+    .cita{
+        font-size: 1.3em;
+    }
+    .benito{
+        font-size: 2.5em;
+    }
+    .capa_1{
+        width: 70px;
+        height: 70px;
+    }
+    
+}
+@media (max-width:480px){
+    .cita{
+        font-size: 1.3em;
+    }
+    .benito{
+        font-size: 2.5em;
+    }
+    .capa_1{
+        width: 70px;
+        height: 70px;
+    }
+    
+
+}
+
+@media (max-width: 550px){
+    .cita{
+        font-size: 1.3em;
+    }
+    .benito{
+        font-size: 2.5em;
+    }
+    .capa_1{
+        width: 70px;
+        height: 70px;
+    }
+    
+    
+}
+
+ 
+   

@@ -1,0 +1,289 @@
+.contactameyescribime{ /*Contenedor padre1 de la sección contactame y escribime*/
+    margin: 5% 10% 10% 10%;
+    border-radius: 15px;
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    flex-direction: row;
+}
+
+/*######CONTACTAME######*/
+
+.contenedorContactame{ /*Contenedor padre de contactame*/
+    width: 50%;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    padding-left: 70px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+.tituloContactame{ /*H2 de contactame*/
+    margin-top: 0px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 4px rgb(219, 71, 170);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 60px;
+    font-weight: 400;
+
+}
+.parrafoContactame{ /*lorem debajo del titulo*/
+    margin-bottom: 2em;
+    font-size: 1.2em;
+    margin-right: 60px;
+}
+.listaContactame{ /*ul que contiene li>a>i*/
+    line-height: 52px;
+    font-size: 1.2em;
+    list-style: none;
+
+}
+
+.linkIconoContactame{ /* link y el icono*/
+    text-decoration: none;
+    color: white;
+   
+}
+.contactameRedSocialicono{ /*icono y solo icono*/
+    margin-right: 20px;
+    color: #defe47;
+    border-radius: 50%;
+}
+.linkIconoContactame:hover{
+    color: #defe47;
+}
+.linkIconoContactame:hover .contactameRedSocialicono{
+    background-color: #defe47;
+    padding: 6px;
+    color: rgb(37, 37, 37);
+}
+.linkIconoContactame:focus{
+    padding: 10px;
+    border-radius: 22px;
+    box-shadow: 0px 0px 8px #defe47;
+}
+
+ 
+/*######ESCRIBIME######*/
+
+.contenedorEscribime{ /*Contenedor padre de escribime*/
+    width: 50%;
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+    flex-direction: column;
+    padding-top:60px;
+    padding-bottom: 40px;
+    padding-right: 70px;
+}
+.tituloEscribime{ /*H2 de escribime*/
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 4px rgb(219, 71, 170);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.formulario{
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.nombreapellido{ /*div que contiene nombre y apellido*/
+    display: flex;
+    flex-direction: row;
+}
+.nombreform{
+    width: 50%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.apellidoform{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+label{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+input[type="text"]{ 
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border:rgba(83, 83, 83, 0.452); 
+    background-color: rgba(83, 83, 83, 0.452);
+}
+input[type="email"]{
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border:rgba(83, 83, 83, 0.452); 
+    background-color: rgba(83, 83, 83, 0.452);
+ 
+}
+textarea{
+    
+    border-radius: 19px;
+    border:rgba(83, 83, 83, 0.452); 
+    background-color: rgba(83, 83, 83, 0.452);
+}
+input[type="submit"]{
+    border: rgba(146, 146, 146, 0.452);
+    background-color: rgba(146, 146, 146, 0.452);
+    border-radius: 50px 50px 50px 50px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #defe47;
+    letter-spacing: 1px;
+    color: #defe47;
+    margin-top: 15px;
+    max-width: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: rgba(146, 146, 146, 0.171);
+    box-shadow: 0px 0px 10px rgba(146, 146, 146, 0.171);
+}
+
+
+input:focus{
+    box-shadow: 0px 0px 7px #b85cac;
+    outline: 0;
+}
+textarea:focus{
+    box-shadow: 0px 0px 7px #b85cac;
+    outline: 0;
+}
+
+/********** @media "contactame" **********/
+@media (max-width:1024px){
+    .parrafoContactame{
+        font-size: 1.2em;
+        margin-right: 10%;
+    }
+}
+@media (max-width:768px){
+    .contactameyescribime{
+        margin: 2% 5% 5% 5%;
+        
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(27, 27, 27);
+    }
+    .contenedorContactame{ 
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+    }
+    .listaContactame{ 
+        max-width: 100%;
+        font-size: 1.2em;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .linkIconoContactame{
+       margin-right: 98px;
+    }
+}
+@media (max-width: 630px){
+    .linkIconoContactame{
+       margin-right: 35px;
+    }
+}
+@media (max-width:480px){
+    .contactameyescribime{
+        margin: 2% 5% 5% 5%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(27, 27, 27);
+    }
+    .contenedorContactame{ 
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 40px;
+        padding-left: 0px;
+    }
+    .listaContactame{ 
+        max-width: 100%;
+        font-size: 1.2em;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .listaContactame{
+        font-size: 1.4em;
+    }
+    .linkIconoContactame{
+        display: inline-block;
+        width: 100%;
+        margin-left: 0%;
+    }
+}
+@media (max-width:320px){
+    .listaContactame{
+        font-size: 1.1em;
+    }
+    .linkIconoContactame{
+        display: inline-block;
+        width: 100%;
+        margin-left: 0%;
+    }
+     .contactameRedSocialicono{ 
+        margin-right: 0px;
+    }
+}
+
+/********** @media "escribime" **********/
+
+@media (max-width:768px){
+    .contenedorEscribime{ /*Contenedor padre de escribime*/
+        width: 100%;}
+    
+}
+@media (max-width: 630px){
+    .contenedorEscribime{
+        padding-right: 0%;
+    }
+  
+}
+
+@media (max-width:320px){
+    .nombreapellido{ /*div que contiene nombre y apellido*/
+        border: tomato 1px solid;
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .nombreform{
+        margin-right: 0%;
+        width: 100%;
+        border: violet 1px solid;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .apellidoform{
+        border: yellow solid 1px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    input[type="submit"]{
+        max-width: 40%;
+    }
+   
+}

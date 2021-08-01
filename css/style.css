@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    background-color:rgb(255, 255, 255);
+    box-shadow:0px 0px 29px 0px rgb(134 134 134 /25%);
+    padding-right: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+}
+.menuNav {
+    color: (#5B6D5B);
+    text-align: right;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
+}
+.navItem , .navSelector {
+    display: inline;
+    padding-inline: 1%;
+    color: (#5B6D5B);
+    
+}
+.linkNav, .linkNavBoton {
+    text-decoration: none;
+    color:rgb(46, 46, 49) ;   
+}
+.linkNavBoton {
+    background-color: #38C38C;
+    color: #fff;
+    border-radius: 50px 50px 50px 50px;
+    border-color: #38c38c;
+    padding: 10px 30px 10px 30px;
+
+
+}
+.titulo {
+    color: #38C38C;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.holasoy {
+    color: #493f45;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.descripcion {
+    color: rgb(114, 111, 107);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+} 
+.loquehagolink {
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.loQueHagoBoton {
+    margin-left: 85px;
+    max-width: 16%;
+    background-color: #38c38c;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+    border-radius: 100px;
+}
+
+
+.mujerprogramadora {
+    max-width: 500px;
+    width: 100%;
+        }
+
+.textoDescripcion {
+    display: block;
+    text-align: left;
+    margin-left: 85px;
+    margin-top: 150px;
+    line-height: 70%;
+}
+
+.sobremi{
+     
+    justify-content: center;
+    padding: 110px 40px 130px;
+    text-align: center;
+       }
+
+.seccionConocimientos{
+
+    background-color: rgb(246, 247, 251);
+    padding: 110px 40px 130px;
+}
+
+.conocimientosTitulo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 900;
+}
+.descripcionConocimientos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+
+}
+.seccionCita {
+    background-image: linear-gradient(to bottom, #38c38c, #3bc296, #41c19f, #4ac0a6, #55beac);
+    margin: 0px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.cita {
+    padding-top: 60px;
+    color: rgba(255, 255, 255, 0.959);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+.benito {
+    color: rgba(255, 255, 255, 0.959);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 40px;
+}
+.iconfrase {
+    display:block;
+    margin:auto; 
+    color: #fff;
+     
+}
+

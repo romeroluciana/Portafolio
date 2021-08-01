@@ -1,0 +1,112 @@
+.seccionConocimientos{ /*div padre1*/ 
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.conocimientosTitulo{ /*h1 titulo*/
+    margin-top:0px ;
+    color: rgb(255, 255, 255);
+    text-shadow: 3px 3px 4px rgb(219, 71, 170);
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1px;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+}
+.descripcionConocimientos { /*Descripcion de conocimientos, lo que está debajo del titulo principal*/
+    margin-top: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+
+}
+.divSkills{ /*DIV PADRE de la zona de galeria de fotos*/
+    max-width: 65%;
+    margin: 4% auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.itemSkills{ /*Div de cada svg + su titulo*/
+    width: 250px;
+    height: 230px;
+    padding: 2%;
+    margin-top: 3%;
+    background-color: rgb(36, 36, 36);
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+.itemSkills:hover{
+    border: 1px #e0fe47 solid;
+}
+.itemSkills:hover{
+    color: #e0fe47;
+}
+.skillSVG{ /*DIV de cada svg*/ 
+    width: 80px;
+    height: 80px;
+}
+
+
+/************@media************/
+@media (max-width:1024px){
+    .divSkills{
+        max-width: 80%;
+    }
+}
+@media (max-width:768px){
+   .itemSkills{
+       margin-bottom: 3%;
+   }
+}
+@media (max-width:480px){
+    .seccionConocimientos{
+        margin-top: 10%;
+    }
+    .divSkills{ 
+        max-width: 100%;
+        margin: 4% auto;
+        display: flex;
+        margin-top: 10%;
+    }
+    .itemSkills{ 
+        height: 200px;
+        width: 45%;
+        margin: 2%;
+        padding: 0px;
+        font-size: 1.3em;
+    }
+    
+}
+@media (max-width:320px){
+    .conocimientosTitulo{
+        font-size: 2.5em;
+    }
+    .itemSkills{
+        width: 60%;
+    }
+}
+
+@media (max-width: 630px){
+    .divSkills{
+        max-width: 100%;
+        margin: 1% auto;
+        padding:0%;
+        width: 100%;
+    }
+    .itemSkills{
+        height: 240px;
+        width: 45%;
+    }
+    
+}

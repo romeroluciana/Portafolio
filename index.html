@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Luciana Romero - Desarrolladora Frontend">
+    <meta name="keywords" content="Portafolio, Desarrollo frontend, Desarrollo web">
+    <title>Portafolio Luciana Romero</title>
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="./imagenes-y-logos/saturn.svg" type="image/x.icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/quote.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!--FONTAWESOME-->
+    <script src="https://kit.fontawesome.com/78a221b1ef.js" crossorigin="anonymous"></script>
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,300;0,400;0,600;0,700;1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!--DEVICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.12.0/devicon.min.css">
+</head>
+<body>
+    <!--COMIENZO MENÚ NAVEGACIÓN-->
+    <nav>
+        <ul class="menuNav">
+            <li class="navItem">
+                <a href="#sobremi" class="linkNav"> HOLA</a>
+            </li>
+            <li class="navItem"> 
+               <a href="#conocimientos" class="linkNav"> CONOCIMIENTOS</a>
+            </li>
+            <li class="navItem">
+                <a href="#proyectos" class="linkNav"> PROYECTOS</a>
+            </li>
+            <li class="navSelector">
+                <a href="#contacto" class="linkNavBoton"> CONTACTO</a>
+            </li>
+        </ul>
+    </nav>
+    <!--FINAL MENÚ NAVEGACIÓN-->
+
+    <!--COMIENZO SOBRE MI -->
+    <section id="sobremi">
+       <div class="sobremi">
+          <div class="flex-container">
+             <h2 class="holasoy">¡Hola! Soy</h2> 
+             <h1 class="titulo">Luciana Romero</h1> 
+             <p class="descripcion">Desarrolladora frontend, amante de los libros y ¡fan de la pizza!</p>
+             <a href="#proyectos" class="loquehagolink">LO QUE HAGO</a>
+          </div>
+          <div class="divImagen">
+             <img
+             class="mujerprogramadora"
+             src="./imagenes-y-logos/developmenhht.svg"
+             alt="mujer programadora">
+          </div>
+      </div>
+    </section>
+    <!--FINAL SOBRE MI-->
+
+    <!--COMIENZO CONOCIMIENTOS-->
+     <section id="conocimientos" class="seccionConocimientos">
+         <h1 class="conocimientosTitulo">Mis conocimientos</h1>
+         <p class="descripcionConocimientos">Tecnologías de las que tengo dominio actualmente</p>
+        <div class="divSkills">
+           <div class="itemSkills">
+                <img
+                   class="skillSVG"
+                   src="./imagenes-y-logos/html5-original.svg"
+                   alt="html">
+                <p>HTML 5</p>
+           </div>
+           <div class="itemSkills">
+                 <img
+                   class="skillSVG"
+                   src="./imagenes-y-logos/css3-original.svg"
+                   alt="css">
+             <p>CSS 3</p>
+           </div>
+           <div class="itemSkills">
+                 <img
+                   class="skillSVG"
+                   src="./imagenes-y-logos/sass-original.svg"
+                   alt="sass">
+             <p>Sass</p>
+           </div>
+           <div class="itemSkills">
+                  <img
+                   class="skillSVG"
+                   src="./imagenes-y-logos/javascript-original.svg"
+                   alt="javascript">
+             <p>JavaScript</p>
+          </div>
+            <div class="itemSkills">
+                  <img 
+                   class="skillSVG"
+                   src="./imagenes-y-logos/react-original.svg"
+                   alt="react">
+             <p>React</p>
+           </div>
+           <div class="itemSkills">
+                 <img
+                   class="skillSVG"
+                   src="./imagenes-y-logos/git-original.svg"
+                   alt="git">
+             <p>GIT</p>
+          </div>
+        </div>
+     </section>
+    <!--FINAL CONOCIMIENTOS-->
+     
+    <!--COMIENZO CITA-->
+     <blockquote class="seccionCita">
+         <img src="./imagenes-y-logos/libromagic.svg" class="capa_1" alt="Libro" height="120" width="120">
+         <p class="cita">"Cualquier tecnología suficientemente avanzada es indistinguible de la magia" </p>
+         <h2 class="benito">Arthur C. Clarke</h2>
+     </blockquote>
+    <!--FINAL CITA-->
+
+    <!--COMIENZO PROYECTOS-->
+    <section id="proyectos" class="seccionProyectos">
+         <h2 class="tituloProyectos">Mis proyectos</h2>
+         <p class="descripcionProyectos">Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Eaque quo nobis voluptatum <br> tenetur! Id, nesciunt?</p>
+         <div class="figurasProyectos">
+            <a class="proyectosItem"
+                href="#">
+                <img src="./imagenes-y-logos/portfoliosvg.svg" alt="Portafolio" class="svgProyectos">
+                <p class="tituloIcono">Portafolio</p>
+            </a>
+          <a class="proyectosItem"
+             href="#sobremi">
+             <img
+                src="./imagenes-y-logos/kitty.svg"
+                alt="Generador de memes" 
+                class="svgProyectos">
+             <p class="tituloIcono">Generador de memes</p>
+          </a>
+          <a class="proyectosItem" 
+             href="#sobremi">
+             <img
+                src="./imagenes-y-logos/marchsvg.svg"
+                alt="Match 3"
+                class="svgProyectos">
+             <p class="tituloIcono">Match 3</p> 
+          </a>
+          <a class="proyectosItem"
+             href="#sobremi">
+             <img 
+                src="./imagenes-y-logos/gastos.svg"
+                alt="Controlador de gastos"
+                class="svgProyectos">
+             <p class="tituloIcono">Controlador de gastos</p>
+          </a>
+          <a class="proyectosItem"
+             href="#sobremi">
+             <img
+                src="./imagenes-y-logos/administradorsvg.svg"
+                alt="Administrador de reuniones"
+                class="svgProyectos">
+             <p class="tituloIcono">Administrador <br> de reuniones</p>
+          </a>
+          <a class="proyectosItem"
+             href="#sobremi">
+             <img
+                src="./imagenes-y-logos/todoappsvg.svg"
+                alt="Todo app"
+                class="svgProyectos">
+             <p class="tituloIcono">Todo app</p>
+          </a>
+          <a class="proyectosItem"
+             href="#sobremi">
+             <img
+                src="./imagenes-y-logos/video-camera.svg"
+                alt="Buscador de pelicular"
+                class="svgProyectos">
+             <p class="tituloIcono">Buscador de peliculas</p> 
+          </a> 
+         </div>
+    </section>
+    <!--FINAL PROYECTOS-->
+
+     <!--COMIENZO CONTACTO-->
+     <section id="contacto" class="contactameyescribime">
+        <div class="contenedorContactame">
+            <h2 class="tituloContactame">Contactame</h2>
+            <p class="parrafoContactame">"Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Eaque quo nobis voluptatum 
+                tenetur! Id, nesciunt? Modi quasi repudiandae
+                quam hic quo, qui cumque nam voluptates,ipsam, tempora eaque numquam eligendi."</p>
+            <ul class="listaContactame">
+                <li class="itemListaContactame">
+                    <a class="linkIconoContactame" 
+                       target="_blank" href="https://twitter.com/lucianarmero">
+                      <i class="fab fa-twitter fa-sm contactameRedSocialicono"></i>
+                      @lucianarmero
+                    </a>
+                </li>
+                <li class="itemListaContactame">
+                     <a class="linkIconoContactame" 
+                      target="_blank" href="https://github.com/romeroluciana">
+                      <i class="fab fa-github-alt fa-sm contactameRedSocialicono"></i>
+                      romeroluciana
+                    </a>
+                </li>
+                <li class="itemListaContactame">
+                    <a class="linkIconoContactame"
+                      target="_blank" href="https://www.linkedin.com/in/luciana-romero">
+                      <i class="fab fa-linkedin-in  fa-sm contactameRedSocialicono"></i>
+                      luciana-romero
+                    </a>
+                </li>
+                <li class="itemListaContactame">
+                     <a class="linkIconoContactame" 
+                      target="_blank" href="mailto:lucianaromero0512@gmail.com">
+                      <i class="fas fa-envelope fa-sm contactameRedSocialicono "></i>
+                      lucianaromero0512@gmail.com
+                   </a>
+                </li>
+            </ul>
+        </div>
+         <!--COMIENZO ESCRIBIME-->
+       <div class="contenedorEscribime">
+          <h2 class="tituloEscribime">Escribime</h2>
+            <form  
+             class="formulario"
+             action="https://submit-form.com/dZv3lZKLnN2eByG6HXaMj___________"
+             method="POST">
+               <div class="nombreapellido">
+                   <div class="nombreform">
+                      <label for="nombre">Nombre *</label>
+                      <input type="text" placeholder="  p.ej Ada" id="nombre">
+                   </div>
+                   <div class="apellidoform">
+                      <label for="apellido">Apellido *</label>
+                      <input type="text" placeholder= "  p.ej Lovelace" id="apellido">
+                   </div>
+               </div>
+               <label for="email">Email *</label>
+               <input type="email" placeholder="  p. ej Ada.lovelace@gmail.com" id="email">
+               <label for="consulta">Mensaje *</label>
+               <textarea name="consulta" placeholder="Escribe un mensaje aqui" id="consulta" cols="30" rows="10"></textarea>
+               <input type="submit" value="Enviar"/>
+          </form>
+       </div>
+     </section>
+     <!--FINAL CONTACTO-->
+
+     <!--COMIENZO FOOTER-->
+     <footer>
+         <ul class="listaFooter">
+             <li class="footerItem"> <a class="footerLink" href="#sobremi"> HOLA</a></li>
+             <li class="footerItem"> <a class="footerLink" href="#conocimientos"> CONOCIMIENTOS</a></li>
+             <li class="footerItem"> <a class="footerLink" href="#proyectos">PROYECTOS</a></li>
+             <li class="footerItem"> <a class="footerLink" href="#contacto"> CONTACTO</a></li>
+         </ul>
+          <ul class="listaIconsFooter">
+             <li>
+                <a 
+                 href="https://twitter.com/lucianarmero"
+                 target="_blank"
+                 class="footerIconoLink">
+                 <i class="fab fa-twitter fa-lg footerRedSocialicono"></i>
+                </a>
+             </li>
+             <li>
+                <a
+                 href="https://github.com/romeroluciana"
+                 target="_blank"
+                 class="footerIconoLink">
+                 <i class="fab fa-github-alt fa-lg footerRedSocialicono"></i>
+                </a>
+             </li>
+             <li>
+                <a 
+                 href="https://www.linkedin.com/in/luciana-romero"
+                 target="_blank"
+                 class="footerIconoLink">
+                 <i class="fab fa-linkedin-in  fa-lg footerRedSocialicono"></i>
+                </a>
+             </li>
+             <li>
+                <a 
+                 href="mailto:lucianaromero0512@gmail.com"
+                 target="_blank"
+                 class="footerIconoLink">
+                 <i class="fas fa-envelope fa-lg footerRedSocialicono"></i>
+                </a>
+             </li>
+          </ul>
+         <h2 class="hechocon">Hecho con ❤️ por Lu</h2>
+     </footer>
+     <!--FINAL FOOTER-->
+</body>
+</html>
+
+
+
+
