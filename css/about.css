@@ -4,15 +4,15 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 10%;
+    
 }
 
 .titulo {
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 4px rgb(219, 71, 170);
-    font-family: 'Bebas Neue', cursive;
+    color: var(--color-titulo);
+    text-shadow: var(--sombra-titulo);
+    font-family: var(--fuente-titulo);
     letter-spacing: 1px;
-    font-size: 60px;
+    font-size: var(--tamaño-titulo);
     margin-top: 3%;
     margin-bottom: 0%;
     font-weight: 400;
@@ -29,7 +29,7 @@
 
 .descripcion {
     color: rgb(255, 255, 255);
-    font-family: 'Titillium Web', sans-serif;
+    font-family: var(--fuente-descripcion);
     font-weight: 300;
     font-size: 23px;
     margin-top: 0%;
@@ -47,14 +47,14 @@
     padding-right: 40px;
     padding-bottom: 15px;
     padding-left: 40px;
-    background-color: rgba(146, 146, 146, 0.452);
+    background-color: var(--color-boton);
     color: #defe47;
     text-shadow: 1px 1px 2px #defe47;
     font-weight: 600;
     border-radius: 100px;
 }
 .loquehagolink:hover{
-    background-color: rgba(146, 146, 146, 0.171);
+    background-color: var(--color-hoverboton);
 }
 .loquehagolink:focus{
     padding-top: 15px;

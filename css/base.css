@@ -8,3 +8,13 @@ body {
     margin: 0px;
     padding: 0px;
 }
+:root{
+    --color-titulo: #ffffff;
+    --sombra-titulo: 3px 3px 4px rgb(219, 71, 170);
+    --fuente-titulo: 'Bebas Neue', cursive;
+    --tamaño-titulo: 60px;
+    --fuente-descripcion: 'Titillium Web', sans-serif;
+    --color-boton: rgba(146, 146, 146, 0.452);
+    --color-hoverboton: rgba(146, 146, 146, 0.171);
+    --fondo-cards: rgb(36, 36, 36);
+}

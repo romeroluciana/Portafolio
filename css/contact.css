@@ -1,14 +1,18 @@
-.contactameyescribime{ /*Contenedor padre1 de la sección contactame y escribime*/
-    margin: 5% 10% 10% 10%;
-    border-radius: 15px;
-    background-color: rgb(37, 37, 37);
+.contactameyescribime{ 
+    margin:10%;
+    margin-top: 0%;
+    padding-top: 10%; /*no le doy el border radius/background color al contenedor padre porque así no quedaria bien el padding*/
+    margin-top: 10%;
     display: flex;
     flex-direction: row;
 }
 
 /*######CONTACTAME######*/
 
-.contenedorContactame{ /*Contenedor padre de contactame*/
+.contenedorContactame{ 
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: var(--fondo-cards);
     width: 50%;
     padding-top: 60px;
     padding-bottom: 40px;
@@ -16,13 +20,14 @@
     color: white;
     font-family: 'Titillium Web', sans-serif;
 }
-.tituloContactame{ /*H2 de contactame*/
+.tituloContactame{ 
     margin-top: 0px;
     margin-bottom: 15px;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 4px rgb(219, 71, 170);
-    font-family: 'Bebas Neue', cursive;
+    color: var(--color-titulo);
+    text-shadow: var(--sombra-titulo);
+    font-family: var(--fuente-titulo);
     letter-spacing: 1px;
+    font-size: var(--tamaño-titulo);
     font-size: 60px;
     font-weight: 400;
 
@@ -67,9 +72,12 @@
 /*######ESCRIBIME######*/
 
 .contenedorEscribime{ /*Contenedor padre de escribime*/
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: var(--fondo-cards);
     width: 50%;
     display: flex;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: var(--fuente-descripcion);
     font-size: 20px;
     text-align: left;
     color: white;
@@ -81,11 +89,11 @@
 .tituloEscribime{ /*H2 de escribime*/
     margin-top: 0px;
     margin-bottom: 20px;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 4px rgb(219, 71, 170);
-    font-family: 'Bebas Neue', cursive;
+    color: var(--color-titulo);
+    text-shadow: var(--sombra-titulo);
+    font-family: var(--fuente-titulo);
     letter-spacing: 1px;
-    font-size: 60px;
+    font-size: var(--tamaño-titulo);
     font-weight: 400;
 }
 
@@ -95,7 +103,7 @@
     flex-direction: column;
 }
 
-.nombreapellido{ /*div que contiene nombre y apellido*/
+.nombreapellido{ 
     display: flex;
     flex-direction: row;
 }
@@ -137,8 +145,8 @@ textarea{
     background-color: rgba(83, 83, 83, 0.452);
 }
 input[type="submit"]{
-    border: rgba(146, 146, 146, 0.452);
-    background-color: rgba(146, 146, 146, 0.452);
+    border: var(--color-boton);
+    background-color: var(--color-boton);
     border-radius: 50px 50px 50px 50px;
     font-family: 'Orbitron', sans-serif;
     font-weight: bold;
@@ -152,8 +160,8 @@ input[type="submit"]{
     cursor: pointer;
 }
 input[type="submit"]:hover{
-    background-color: rgba(146, 146, 146, 0.171);
-    box-shadow: 0px 0px 10px rgba(146, 146, 146, 0.171);
+    background-color: var(--color-hoverboton);
+    box-shadow: 0px 0px 10px var(--color-hoverboton);
 }
 
 
@@ -176,7 +184,6 @@ textarea:focus{
 @media (max-width:768px){
     .contactameyescribime{
         margin: 2% 5% 5% 5%;
-        
         display: flex;
         flex-direction: column;
         background-color: rgb(27, 27, 27);
@@ -186,6 +193,7 @@ textarea:focus{
         padding-top: 0px;
         padding-bottom: 40px;
         padding-left: 0px;
+        background-color: rgb(27, 27, 27);
     }
     .listaContactame{ 
         max-width: 100%;
@@ -215,6 +223,7 @@ textarea:focus{
         padding-top: 0px;
         padding-bottom: 40px;
         padding-left: 0px;
+        background-color: rgb(27, 27, 27);
     }
     .listaContactame{ 
         max-width: 100%;
@@ -250,7 +259,8 @@ textarea:focus{
 
 @media (max-width:768px){
     .contenedorEscribime{ /*Contenedor padre de escribime*/
-        width: 100%;}
+        width: 100%;
+        background-color: rgb(27, 27, 27);}
     
 }
 @media (max-width: 630px){
@@ -261,9 +271,7 @@ textarea:focus{
 }
 
 @media (max-width:320px){
-    .nombreapellido{ /*div que contiene nombre y apellido*/
-        border: tomato 1px solid;
-
+    .nombreapellido{ 
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
@@ -271,13 +279,11 @@ textarea:focus{
     .nombreform{
         margin-right: 0%;
         width: 100%;
-        border: violet 1px solid;
         display: flex;
         flex-direction: column;
     }
     
     .apellidoform{
-        border: yellow solid 1px;
         width: 100%;
         display: flex;
         flex-direction: column;

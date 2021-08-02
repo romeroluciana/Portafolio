@@ -1,28 +1,30 @@
-.seccionConocimientos{ /*div padre1*/ 
+.seccionConocimientos{ 
     display: flex;
+    padding-top: 10%;
     flex-direction: column;
     padding-bottom: 100px;
 }
 
-.conocimientosTitulo{ /*h1 titulo*/
+.conocimientosTitulo{ 
     margin-top:0px ;
-    color: rgb(255, 255, 255);
-    text-shadow: 3px 3px 4px rgb(219, 71, 170);
-    font-family: 'Bebas Neue', cursive;
+    color: var(--color-titulo);
+    text-shadow: var(--sombra-titulo);
+    font-family: var(--fuente-titulo);
     letter-spacing: 1px;
-    font-size: 60px;
+    font-size: var(--tamaño-titulo);
+    letter-spacing: 1px;
     font-weight: 400;
     text-align: center;
 }
-.descripcionConocimientos { /*Descripcion de conocimientos, lo que está debajo del titulo principal*/
+.descripcionConocimientos { 
     margin-top: 0;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: var(--fuente-descripcion);
     font-size: 20px;
     text-align: center;
     color: white;
 
 }
-.divSkills{ /*DIV PADRE de la zona de galeria de fotos*/
+.divSkills{ 
     max-width: 65%;
     margin: 4% auto;
     display: flex;
@@ -30,18 +32,18 @@
     align-items: center;
     flex-wrap: wrap;
 }
-.itemSkills{ /*Div de cada svg + su titulo*/
+.itemSkills{ 
     width: 250px;
     height: 230px;
     padding: 2%;
     margin-top: 3%;
-    background-color: rgb(36, 36, 36);
+    background-color: var(--fondo-cards);
     border-radius: 3%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: 'Titillium Web', sans-serif;
+    font-family: var(--fuente-descripcion);
     font-size: 22px;
     text-align: center;
     color: white;
@@ -52,7 +54,7 @@
 .itemSkills:hover{
     color: #e0fe47;
 }
-.skillSVG{ /*DIV de cada svg*/ 
+.skillSVG{ 
     width: 80px;
     height: 80px;
 }

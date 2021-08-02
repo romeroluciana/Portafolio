@@ -32,14 +32,14 @@ nav {
     color: #e0fe47cc;
 }
 .linkNavBoton {
-    background-color: rgba(146, 146, 146, 0.452);
+    background-color: var(--color-boton);
     color: #defe47;
     text-shadow: 1px 1px 2px #defe47;
     border-radius: 50px;
     padding: 10px 30px;
 }
 .linkNavBoton:hover{
-    background-color: rgba(146, 146, 146, 0.171);
+    background-color: var(--color-hoverboton);
 }
 .linkNav:focus{
     padding: 10px;

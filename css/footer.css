@@ -38,6 +38,7 @@ footer{
 
 .listaIconsFooter{ /*LISTA que contiene los li + el a + el <i> .footerRedSocialIcono */
     margin-top: 30px;
+    
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -53,7 +54,6 @@ footer{
     background-color: rgb(27, 27, 27);
     margin-left: 20px;
     border-radius: 50%;
-    
     text-decoration: none;
 }
 .footerIconoLink:hover{
@@ -69,13 +69,60 @@ footer{
     width: 100px;
     height: 100px;
 }
-@media (max-width: 550px){
+
+/**********---------- @media ----------**********/
+@media (max-width:1024px){
+}
+@media (max-width:768px){ 
+    
+}
+@media (max-width: 630px){
     .listaFooter{
         display: none;
     }
-    .listaIconsFooter{
-        margin-left: 5%;
-        margin-right: 5%;
-    }    
- }
+    .listaIconsFooter{ 
+        padding-top: 4%;
+        padding-bottom: 4%;
+        width: 50%;
+        margin-top: 10px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
     
+    .footerIconoLink{ 
+        margin-left: 0px;
+    }
+    
+}
+@media (max-width: 550px){
+    .listaIconsFooter{
+        width: 70%;
+    }
+    .footerIconoLink{
+        justify-content: space-between;
+    }
+
+}
+@media (max-width:415px){
+    .listaIconsFooter{
+        width: 90%;
+    }
+    .footerIconoLink{
+        justify-content: space-between;
+    }
+  
+}
+
+@media (max-width:320px){ 
+    .listaIconsFooter{
+        width: 100%;
+    }
+    .footerIconoLink{
+        font-size: 0.9em;
+        padding: 10px;
+        justify-content: space-between;
+    }
+    
+}
