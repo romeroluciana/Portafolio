@@ -238,17 +238,20 @@
                <div class="nombreapellido">
                    <div class="nombreform">
                       <label for="nombre">Nombre *</label>
-                      <input type="text" placeholder="  p.ej Ada" id="nombre">
+                      <input type="text" placeholder="  p.ej Ada" id="nombre" required>
                    </div>
                    <div class="apellidoform">
                       <label for="apellido">Apellido *</label>
-                      <input type="text" placeholder= "  p.ej Lovelace" id="apellido">
+                      <input type="text" placeholder= "  p.ej Lovelace" id="apellido" required>
                    </div>
                </div>
                <label for="email">Email *</label>
-               <input type="email" placeholder="  p. ej Ada.lovelace@gmail.com" id="email">
+               <input type="email" placeholder="  p. ej Ada.lovelace@gmail.com" id="email" required>
                <label for="consulta">Mensaje *</label>
-               <textarea name="consulta" placeholder="Escribe un mensaje aqui" id="consulta" cols="30" rows="10"></textarea>
+               <textarea name="consulta"
+                   placeholder="Escribe un mensaje aqui"
+                   id="consulta" 
+                   cols="30" rows="10"></textarea>
                <input type="submit" value="Enviar"/>
           </form>
        </div>

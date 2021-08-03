@@ -8,6 +8,7 @@ body {
     margin: 0px;
     padding: 0px;
 }
+
 :root{
     --color-titulo: #ffffff;
     --sombra-titulo: 3px 3px 4px rgb(219, 71, 170);
