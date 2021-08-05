@@ -11,6 +11,7 @@ body {
 
 :root{
     --color-titulo: #ffffff;
+    --color-amarillo: #defe47;
     --sombra-titulo: 3px 3px 4px rgb(219, 71, 170);
     --fuente-titulo: 'Bebas Neue', cursive;
     --tamaño-titulo: 60px;

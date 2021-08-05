@@ -2,9 +2,8 @@
     border-top: 1px solid rgba(219, 71, 170, 0.575);
     border-bottom: 1px solid rgba(219, 71, 170, 0.575);
     margin: 5%;
-    margin-top: 5%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .cita {
@@ -18,7 +17,7 @@
     text-align: center;
     font-weight: 400;
 }
-.benito {
+.autorCita{
     color: var(--color-titulo);
     text-shadow: var(--sombra-titulo);
     font-family: var(--fuente-titulo);
@@ -31,7 +30,7 @@
     padding-top: 20px;
 }
 
-.capa_1{
+.iconoCita{
     display: block;
     margin: auto;
 }
@@ -40,10 +39,10 @@
     .cita{
         font-size: 1.3em;
     }
-    .benito{
+    .autorCita{
         font-size: 2.5em;
     }
-    .capa_1{
+    .iconoCita{
         width: 70px;
         height: 70px;
     }
@@ -53,10 +52,10 @@
     .cita{
         font-size: 1.3em;
     }
-    .benito{
+    .autorCita{
         font-size: 2.5em;
     }
-    .capa_1{
+    .iconoCita{
         width: 70px;
         height: 70px;
     }
@@ -68,10 +67,10 @@
     .cita{
         font-size: 1.3em;
     }
-    .benito{
+    .autorCita{
         font-size: 2.5em;
     }
-    .capa_1{
+    .iconoCita{
         width: 70px;
         height: 70px;
     }
