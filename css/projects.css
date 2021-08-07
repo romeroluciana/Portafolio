@@ -68,6 +68,17 @@
 .linkIcono{
     text-decoration: none;
 }
+@media (min-width:2006px){
+    .figurasProyectos{
+        max-width: 50%;
+    }
+   
+}
+@media (min-width:1630px){
+    .figurasProyectos{
+        width: 60%;
+    }
+}
 @media (max-width:1300px){
     .figurasProyectos{
         margin: 4% auto;
