@@ -25,10 +25,10 @@
 
 }
 .divSkills{ 
-    max-width: 65%;
+    width: 60%;
     margin: 4% auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -61,12 +61,22 @@
 
 
 /************@media************/
-@media (max-width:1024px){
+@media (min-width:1670px){
     .divSkills{
-        max-width: 80%;
+        width: 45%;
+        border: tomato solid 1px;
+    }
+}
+
+@media (max-width:1234px){
+    .divSkills{
+        width: 80%;
     }
 }
 @media (max-width:768px){
+    .divSkills{
+        width: 85%;
+    }
    .itemSkills{
        margin-bottom: 3%;
    }
@@ -76,7 +86,7 @@
         margin-top: 10%;
     }
     .divSkills{ 
-        max-width: 100%;
+        width: 100%;
         margin: 4% auto;
         display: flex;
         margin-top: 10%;
@@ -101,7 +111,7 @@
 
 @media (max-width: 630px){
     .divSkills{
-        max-width: 100%;
+        width: 100%;
         margin: 1% auto;
         padding:0%;
         width: 100%;
