@@ -22,7 +22,7 @@
     color: white;
 }
 .figurasProyectos{ 
-    max-width: 73%;
+    width: 73%;
     margin: 3% auto;
     margin-bottom: 0%;
     display: flex;
@@ -71,7 +71,7 @@
 @media (max-width:1300px){
     .figurasProyectos{
         margin: 4% auto;
-        max-width: 90%;
+        width: 90%;
         justify-content: space-between;
     }
    .proyectosItem{
@@ -81,10 +81,10 @@
 @media (max-width:768px){
    .proyectosItem{
        margin-bottom: 3%;
-       max-height: 220px;
+       height: 220px;
    }
    .svgProyectos{
-       max-width: 70%;
+       width: 70%;
    }
 }
 @media (max-width: 630px){
@@ -95,7 +95,7 @@
         width: 90%;
     }
     .proyectosItem{
-        height: 300px;
+       max-height: 300px;
         width: 80%;
     }
 }
