@@ -158,10 +158,13 @@
         max-width: 100%;
     }
     .svgProyectos{
+        border: solid red 1px;
         width: 90%;
-    
+        padding-bottom: 0%;
     }
    .tituloIcono{
+       border: springgreen solid 1px;
+       margin-top: 0%;
        font-size: 0.9em;
    }
 }
