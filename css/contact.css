@@ -265,6 +265,9 @@ textarea:focus{
     }
 }
 @media (max-width:360px){
+    .tituloContactame{
+        font-size: 2.5em;
+    }
     .listaContactame{
         font-size: 1.1em;
     }
@@ -292,6 +295,9 @@ textarea:focus{
 }
 
 @media (max-width:320px){
+    .tituloEscribime{
+        font-size: 2.5em;
+    }
     .nombreapellido{ 
         display: flex;
         flex-direction: row;

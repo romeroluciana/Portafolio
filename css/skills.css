@@ -91,7 +91,6 @@
         margin-top: 10%;
     }
     .itemSkills{ 
-        height: 200px;
         width: 45%;
         margin: 2%;
         padding: 0px;
@@ -100,12 +99,30 @@
     
 }
 @media (max-width:320px){
+    .divSkills{
+        margin: 1% auto;
+        justify-content: center;
+        max-width: 100%;
+        padding-left:0% ;
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        font-size: 1.2em;
+    }
     .conocimientosTitulo{
         font-size: 2.5em;
     }
     .itemSkills{
-        width: 60%;
+        max-width: 100%;
+        padding-right: 40%;
+        padding-left:40% ;
+        height: 100px;
+        width: 90%;
     }
+    .skillSVG{
+        padding: 0%;
+    }
+    
 }
 
 @media (max-width: 630px){
